@@ -14,8 +14,8 @@ public class Base {
 		driver = new ChromeDriver();
 		//driver = new BraveDriver();
 		
-		//driver.get("https://selenium.qabible.in/");
-		driver.get("https://www.amazon.in/");
+		driver.get("https://selenium.qabible.in/");
+		//driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 		
 	}
@@ -23,7 +23,7 @@ public class Base {
 	
 	public void closeandQuit() {
 		
-		
+		  
 		//driver.close(); //to close single page in a browser
 		
 		driver.quit(); //to close the whole browser

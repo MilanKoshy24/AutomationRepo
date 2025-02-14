@@ -15,7 +15,7 @@ public class BrowserCommands extends Base { //extends base class
 		
 		
 		System.out.println(title); //title printing
-		System.out.println(url); //url printing
+		System.out.println(url); //url printing  
 		System.out.println(handleID); //handle id printing
 		System.out.println(pageSource); //page source printing
 		
