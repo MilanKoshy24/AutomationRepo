@@ -24,7 +24,7 @@ public class BrowserCommands extends Base { //extends base class
 	public void navigationCommands() {
 		
 		
-		driver.navigate().to("https://www.flipkart.com"); //to get into another site
+		driver.navigate().to(" https://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html"); //to get into another site
 		driver.navigate().back(); //to get back to  main site
 		driver.navigate().forward(); // to get back to the visited site
 		driver.navigate().refresh(); // to refresh the page
