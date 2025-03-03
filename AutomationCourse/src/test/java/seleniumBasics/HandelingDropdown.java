@@ -15,11 +15,15 @@ public class HandelingDropdown extends Base {
 		WebElement dropdownOne = driver.findElement(By.xpath("//select[@id='dropdowm-menu-1']"));
 		Select selectOne = new Select(dropdownOne);
 		selectOne.selectByIndex(1);
-		
-		
+			
 		WebElement dropdownTwo = driver.findElement(By.xpath("//select[@id='dropdowm-menu-2']"));
 		Select selectTwo = new Select(dropdownTwo);
 		selectTwo.selectByValue("testng");
+		
+		WebElement dropdownThree = driver.findElement(By.xpath("//select[@id='dropdowm-menu-3']"));
+		Select selectThree = new Select(dropdownThree);
+		selectThree.selectByVisibleText("JQuery");
+		
 	}
 	
 	
